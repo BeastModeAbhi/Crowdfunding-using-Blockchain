@@ -105,9 +105,9 @@ const FormRightWrapper = () => {
           url: "https://api.pinata.cloud/pinning/pinFileToIPFS",
           data: formData,
           headers: {
-            pinata_api_key: "9469171e190d349aed58",
+            pinata_api_key: "Your_Api_Key",
             pinata_secret_api_key:
-              "ac484cc0e88934b162e130a6de76eae79f55e42280ad88d7ff31856e44dd5e02",
+              "Your_Secret_Key",
             "Content-Type": "multipart/form-data",
           },
         });
